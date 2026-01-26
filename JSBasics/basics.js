@@ -26,3 +26,7 @@ students.reduce((subjectMap,studentMap)=>{
  return subjectMap;
 },{});
 console.log(subjectMap);
+
+const a = [1,2,3,4,8]
+a.splice(2,0,6,7,8)
+console.log(a)
